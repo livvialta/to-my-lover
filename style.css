@@ -1,0 +1,128 @@
+*{ margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    }
+
+    body{
+        background-image: url(img/bg.gif);
+        background-position: top center;
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+    }
+
+    body *{
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    section div h2{
+        font-weight: 900;
+        font-size: 24px;
+        letter-spacing:-0.47px;
+    }
+
+    section div p{
+        font-weight: 400;
+        letter-spacing: -0.18px;
+    }
+    header div h1{
+        font-weight: 900;
+        font-size: 24px;
+        letter-spacing:-0.47px;
+    }
+
+    header p{
+        font-weight: 400;
+        letter-spacing: -0.18px;
+    }
+    header{
+
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       line-height: 160%;
+        padding-top: 30px;
+        border-radius: 10px;
+    }
+
+    header div{
+        background-color: #2A2634;
+        padding: 32px;
+        padding-top: 24px;
+        border-radius: 8px;
+        border: 1px solid rgb(108, 153, 236);
+    }
+
+
+    main{
+        margin-top: 32px;
+        max-width: 580px;
+        width: 90%;
+        margin: 32px auto;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+    
+    h1{
+        color: rgb(182, 200, 230);
+        padding-bottom: 4px;
+    }
+
+    header p{
+        color: blanchedalmond;
+    }
+    section{
+        color: white;
+        line-height: 160%;
+        padding-top: 4px;
+        border-radius: 10px;
+        background-image: linear-gradient(90deg, rgb(108, 153, 236) 0%, #b7d5e5 50.52%, cornflowerblue 100%);
+    }
+    section div {
+        background-color: #2A2634;
+        padding: 32px;
+        padding-top: 24px;
+        border-radius: 8px;
+    }
+
+    section h2 {
+        font-weight: 900;
+        font-size: 24px;
+        letter-spacing: -0.47px;
+    }
+    
+    section p {
+        color: lavender;
+        font-weight: 400;
+        letter-spacing: -0.18px;
+    }
+
+
+    .vidinho img{
+        margin-left: 30%;
+        padding-top: 20px;
+        width: 180px;
+        height: 180px;
+    }
+
+    .cartinha img{
+        margin-left: 30%;
+        padding-top: 20px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .a{
+        display: flex;
+        padding-top: 10px;
+        color: #b7d5e5;
+        font-weight: 400;
+        letter-spacing: -0.18px;
+        
+    }
+    
+
+    footer{
+        text-align: center;
+        color: #dbcfc3;
+    }
